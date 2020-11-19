@@ -1,0 +1,5 @@
+OverallError=0.3722334
+Entropy=0
+BlankRatio=0.3722334
+TotalOffsets=0
+TotalBlanks=185
