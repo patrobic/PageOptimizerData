@@ -1,0 +1,62 @@
+{
+	"Name": "CCWS_Bethel_1e",
+	"FrontPage": {
+		"Options": {},
+		"Content": {
+			"IsFrontPageActive": true,
+			"Title": "Classic & Contemporary Worship – Lead Sheet Collection (1st Edition)",
+			"Copyright": "Copyright ©2020 Bethel Community Church, CCLI, and respective song owners.",
+			"Publication": "Published in July of 2020",
+			"Compilation": "Compiled by Patrick Robichaud",
+			"Church": "Bethel Community Church",
+			"Address": "105 De Dieppe Avenue, Pointe-Claire, QC H9R 1X5",
+			"License": "CCLI License #607921",
+			"Agreement": "With an active CCLI license, Bethel Community Church has permission to use the copyrighted works found herein.\nThis book may be used by, reproduced for, and distributed to its members only.",
+			"Verse": "Make a joyful noise to the LORD, all the earth!\nServe the LORD with gladness! Come into his presence with singing!\nEnter his gates with thanksgiving, and his courts with praise!\nGive thanks to him; bless his name!",
+			"Reference": "(Psalms 100:1-4 ESV)"
+		}
+	},
+	"Sections": [
+		{
+			"Name": "Main",
+			"Type": "Lead",
+			"Options": {
+				"IsPrimaryAlphabetical": true,
+				"OptimizationStrategy": "Exhaustive"
+			},
+			"Indexes": [
+				"Alphabetical",
+				"Detailed",
+				"Keys",
+				"Authors",
+				"DatePublished"
+			]
+		},
+		{
+			"Name": "Christmas",
+			"Type": "Lead",
+			"Options": {
+				"PrimaryAlphabetical": true,
+				"OptimizationStrategy": "Exhaustive"
+			},
+			"Indexes": [
+				"Alphabetical"
+			]
+		}
+	],
+	"Modules": {
+		"Import": {},
+		"Publish": {
+			"SubSections": {
+				"Preface": {},
+				"ChordDiagrams": {},
+				"FrontCover": {},
+				"BackCover": {}
+			}
+		},
+		"FrontPage": {},
+		"IndexPages": {},
+		"SheetMusic": {},
+		"Export": {}
+	}
+}
