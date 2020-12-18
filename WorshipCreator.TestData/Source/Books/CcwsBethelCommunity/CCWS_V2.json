@@ -1,0 +1,396 @@
+{
+	"BookName": "CCWS",
+	"RootPath": "CCWS",
+	"PageSize": "Ledger",
+	"PageOrientation": "Landscape",
+	"Sections": [
+		{
+			"Id": 1,
+			"Priority": 1,
+			"Name": "Front Cover",
+			"Type": "FrontCover"
+		},
+		{
+			"Id": 2,
+			"Priority": 10,
+			"DependsOn": [
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9
+			],
+			"Name": "Front Page",
+			"Type": "FrontPage"
+		},
+		{
+			"Id": 3,
+			"Priority": 2,
+			"Name": "Preface",
+			"Type": "Preface"
+		},
+		{
+			"Id": 4,
+			"Priority": 3,
+			"Name": "Chord Diagrams",
+			"Type": "Diagrams"
+		},
+		{
+			"Id": 5,
+			"Priority": 5,
+			"DependsOn": [
+				6
+			],
+			"Name": "Sheet Music Indexes",
+			"Type": "Indexes"
+		},
+		{
+			"Id": 6,
+			"Priority": 4,
+			"Name": "Sheet Music",
+			"Type": "SheetMusic"
+		},
+		{
+			"Id": 7,
+			"Priority": 7,
+			"DependsOn": [
+				8
+			],
+			"Name": "Christmas Indexes",
+			"Type": "Indexes"
+		},
+		{
+			"Id": 8,
+			"Priority": 6,
+			"Name": "Christmas Music",
+			"Type": "SheetMusic"
+		},
+		{
+			"Id": 9,
+			"Priority": 8,
+			"Name": "Appendix",
+			"Type": "Appendix"
+		},
+		{
+			"Id": 10,
+			"Priority": 9,
+			"Name": "Back Cover",
+			"Type": "BackCover"
+		}
+	],
+	"Import": {
+		"Parameters": {},
+		"Sections": [
+			{
+				"Id": 1,
+				"Path": "Content/Ledger",
+				"File": "FrontCover.pdf"
+			},
+			{
+				"Id": 2,
+				"Path": "Content/Ledger",
+				"File": "FrontPage.json"
+			},
+			{
+				"Id": 3,
+				"Path": "Content/Ledger",
+				"File": "Preface.pdf"
+			},
+			{
+				"Id": 4,
+				"Path": "Content/Ledger",
+				"File": "ChordCharts.pdf"
+			},
+			{
+				"Id": 5,
+				"Path": "Sections/Main",
+				"File": "Index.csv"
+			},
+			{
+				"Id": 6,
+				"Path": "Sections/Main",
+				"File": "Lead.csv"
+			},
+			{
+				"Id": 7,
+				"Path": "Sections/Christmas",
+				"File": "Index.csv"
+			},
+			{
+				"Id": 8,
+				"Path": "Sections/Christmas",
+				"File": "Lead.csv"
+			},
+			{
+				"Id": 9,
+				"Path": "Content/Ledger",
+				"File": "Appendix.pdf"
+			},
+			{
+				"Id": 10,
+				"Path": "Content/Ledger",
+				"File": "BackCover.pdf"
+			}
+		]
+	},
+	"Publish": {
+		"Parameters": {},
+		"Sections": [
+			{
+				"Id": 1,
+				"StartOnSide": "Right",
+				"PageNumbering": "None",
+				"NumberingVisible": false,
+				"ExactLength": 2,
+				"AutoGenerate": false
+			},
+			{
+				"Id": 2,
+				"StartOnSide": "Right",
+				"NumberingType": "AlphaLower",
+				"NumberingVisible": false,
+				"ExactLength": 1,
+				"AutoGenerate": true
+			},
+			{
+				"Id": 3,
+				"StartOnSide": "Left",
+				"PageNumbering": "AlphaLower",
+				"NumberingVisible": true,
+				"ExactLength": 1,
+				"AutoGenerate": false
+			},
+			{
+				"Id": 4,
+				"StartOnSide": "Left",
+				"PageNumbering": "AlphaLower",
+				"NumberingVisible": true,
+				"ExactLength": 2,
+				"AutoGenerate": false
+			},
+			{
+				"Id": 5,
+				"StartOnSide": "Either",
+				"PageNumbering": "Numerical",
+				"NumberingVisible": true,
+				"ExactLength": null,
+				"AutoGenerate": true
+			},
+			{
+				"Id": 6,
+				"StartOnSide": "Left",
+				"PageNumbering": "Numerical",
+				"NumberingVisible": true,
+				"ExactLength": null,
+				"AutoGenerate": true
+			},
+			{
+				"Id": 7,
+				"StartOnSide": "Right",
+				"PageNumbering": "Numerical",
+				"NumberingVisible": true,
+				"ExactLength": 1,
+				"AutoGenerate": true
+			},
+			{
+				"Id": 8,
+				"StartOnSide": "Left",
+				"PageNumbering": "Numerical",
+				"NumberingVisible": true,
+				"ExactLength": null,
+				"AutoGenerate": true
+			},
+			{
+				"Id": 9,
+				"StartOnSide": "Either",
+				"PageNumbering": "None",
+				"NumberingVisible": false,
+				"ExactLength": null,
+				"AutoGenerate": false
+			},
+			{
+				"Id": 10,
+				"StartOnSide": "Left",
+				"PageNumbering": "None",
+				"NumberingVisible": false,
+				"ExactLength": 1,
+				"AutoGenerate": false
+			}
+		],
+		"FrontPage": {
+			"Parameters": {},
+			"Sections": [
+				{
+					"Id": 3,
+					"TocEntries": [
+						{
+							"EntryId": 1,
+							"Title": "Preface",
+							"PageNumber": "b",
+							"Level": 1
+						}
+					]
+				},
+				{
+					"Id": 4,
+					"TocEntries": [
+						{
+							"EntryId": 2,
+							"Title": "Chord Charts",
+							"PageNumber": "c",
+							"Level": 1
+						},
+						{
+							"EntryId": 3,
+							"Title": "Chords by Type (Alphabetical Order)",
+							"PageNumber": "c",
+							"Level": 2
+						},
+						{
+							"EntryId": 4,
+							"Title": "Chords by Scale (Circle of Fifths)",
+							"PageNumber": "d",
+							"Level": 2
+						}
+					]
+				},
+				{
+					"Id": 5,
+					"TocEntries": [
+						{
+							"EntryId": 5,
+							"Title": "Song Index",
+							"PageNumber": "e",
+							"Level": 1
+						},
+						{
+							"EntryId": 6,
+							"Title": "Detailed Index",
+							"PageNumber": "f",
+							"Level": 2
+						},
+						{
+							"EntryId": 7,
+							"Title": "Index of Keys",
+							"PageNumber": "i",
+							"Level": 2
+						},
+						{
+							"EntryId": 8,
+							"Title": "Index of Authors",
+							"PageNumber": "j",
+							"Level": 2
+						},
+						{
+							"EntryId": 9,
+							"Title": "Index of Date Published",
+							"PageNumber": "k",
+							"Level": 2
+						}
+					]
+				},
+				{
+					"Id": 6,
+					"TocEntries": [
+						{
+							"EntryId": 10,
+							"Title": "Sheet Music",
+							"PageNumber": "1",
+							"Level": 1
+						}
+					]
+				},
+				{
+					"Id": 7,
+					"TocEntries": [
+						{
+							"EntryId": 11,
+							"Title": "Christmas Index",
+							"PageNumber": "260",
+							"Level": 1
+						}
+					]
+				},
+				{
+					"Id": 8,
+					"TocEntries": [
+						{
+							"EntryId": 12,
+							"Title": "Christmas Music",
+							"PageNumber": "261",
+							"Level": 1
+						}
+					]
+				}
+			]
+		},
+		"IndexPages": {
+			"IndexTable": {},
+			"Sections": [
+				{
+					"Id": 5,
+					"Indexes": [
+						{
+							"Name": "Alphabetical Index",
+							"IndexType": "Alphabetical",
+							"Columns": 3
+						},
+						{
+							"Name": "Detailed Index",
+							"IndexType": "Detailed",
+							"Columns": 1
+						},
+						{
+							"Name": "Keys Index",
+							"IndexType": "Keys",
+							"Columns": 3
+						},
+						{
+							"Name": "Authors Index",
+							"IndexType": "Authors",
+							"Columns": 3
+						},
+						{
+							"Name": "Date Published Index",
+							"IndexType": "DatePublished",
+							"Columns": 3
+						}
+					]
+				},
+				{
+					"Id": 7,
+					"Indexes": [
+						{
+							"Name": "Alphabetical Index",
+							"IndexType": "Alphabetical"
+						}
+					]
+				}
+			]
+		},
+		"SheetMusic": {
+			"Optimizing": {},
+			"Exporting": {},
+			"Sections": [
+				{
+					"Id": 6,
+					"SheetType": "LeadSheet",
+					"OptimizerType": "Exhaustive",
+					"PrimaryAlphabetical": false
+				},
+				{
+					"Id": 8,
+					"SheetType": "LeadSheet",
+					"OptimizerType": "Exhaustive",
+					"PrimaryAlphabetical": true
+				}
+			]
+		}
+	},
+	"Export": {
+		"Parameters": {},
+		"Sections": []
+	}
+}

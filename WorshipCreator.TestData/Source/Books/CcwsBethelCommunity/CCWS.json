@@ -1,0 +1,178 @@
+{
+	"BookName": "CCWS",
+	"Parameters": {
+		"RootPath": "CCWS ",
+		"PageSize": "Ledger",
+		"PageOrientation": "Landscape"
+	},
+	"Import": {
+		"Collections": [
+			{
+				"Path": "Main",
+				"File": "CCWS.csv"
+			},
+			{
+				"Path": "Christmas",
+				"File": "Details.csv"
+			}
+		]
+	},
+	"Sections": [
+		{
+			"Id": 1,
+			"Name": "Front Cover",
+			"Type": "FrontCover",
+			"Path": "Content/Ledger",
+			"File": "FrontCover.pdf",
+			"Parameters": {
+				"StartOnSide": "Right",
+				"ExactLength": 2,
+				"AutoGenerate": false
+			}
+		},
+		{
+			"Id": 2,
+			"Name": "Front Page",
+			"Type": "FrontPage",
+			"Path": "Content/Ledger",
+			"File": "FrontPage.pdf",
+			"Parameters": {
+				"StartOnSide": "Right",
+				"ExactLength": 1,
+				"AutoGenerate": true
+			}
+		},
+		{
+			"Id": 3,
+			"Name": "Preface",
+			"SectionType": "Preface",
+			"Path": "Ledger",
+			"File": "Content/Preface.pdf",
+			"Parameters": {
+				"StartOnSide": "Left",
+				"ExactLength": 1,
+				"AutoGenerate": false
+			}
+		},
+		{
+			"Id": 4,
+			"Name": "Chord Diagrams",
+			"SectionType": "Diagrams",
+			"Path": "Content/Ledger",
+			"File": "ChordCharts.pdf",
+			"Parameters": {
+				"StartOnSide": "Left",
+				"ExactLength": 2,
+				"AutoGenerate": false
+			}
+		},
+		{
+			"Id": 5,
+			"Name": "Sheet Music Indexes",
+			"SectionType": "Indexes",
+			"Path": "",
+			"File": "",
+			"Parameters": {
+				"StartOnSide": "Either",
+				"ExactLength": null,
+				"AutoGenerate": true
+			},
+			"Indexes": [
+				{
+					"IndexType": "Alphabetical",
+					"Name": "Alphabetical Index"
+				},
+				{
+					"IndexType": "Detailed",
+					"Name": "Detailed Index"
+				},
+				{
+					"IndexType": "Keys",
+					"Name": "Keys Index"
+				},
+				{
+					"IndexType": "Authors",
+					"Name": "Authors Index"
+				},
+				{
+					"IndexType": "DatePublished",
+					"Name": "Date Published Index"
+				}
+			]
+		},
+		{
+			"Id": 5,
+			"Name": "Sheet Music",
+			"Type": "SheetMusic",
+			"Path": "Sections/Main",
+			"File": "CCWS.csv",
+			"Parameters": {
+				"StartOnSide": "Left",
+				"ExactLength": null,
+				"AutoGenerate": true
+			},
+			"Optimizer": {
+				"SheetType": "LeadSheet",
+				"OptimizerType": "Exhaustive",
+				"PrimaryAlphabetical": true
+			}
+		},
+		{
+			"Id": 6,
+			"Name": "Christmas Indexes",
+			"Type": "Indexes",
+			"Parameters": {
+				"StartOnSide": "Right",
+				"ExactLength": 1,
+				"AutoGenerate": true
+			},
+			"Indexes": [
+				{
+					"IndexType": "Alphabetical",
+					"Name": "Alphabetical Index"
+				}
+			]
+		},
+		{
+			"Id": 6,
+			"Name": "Christmas Music",
+			"Type": "SheetMusic",
+			"Path": "Sections/Christmas",
+			"File": "CCWS_Christmas.csv",
+			"Parameters": {
+				"StartOnSide": "Left",
+				"ExactLength": null,
+				"AutoGenerate": true
+			},
+			"Optimizer": {
+				"SheetType": "LeadSheet",
+				"OptimizerType": "Exhaustive",
+				"PrimaryAlphabetical": false
+			}
+		},
+		{
+			"Id": 7,
+			"Name": "Appendix",
+			"SectionType": "Generic",
+			"Path": "Content/Ledger",
+			"File": "Appendix.pdf",
+			"Parameters": {
+				"StartOnSide": "Either",
+				"ExactLength": null,
+				"AutoGenerate": false
+			}
+		},
+		{
+			"Id": 8,
+			"Name": "Back Cover",
+			"Type": "BackCover",
+			"Path": "Content/Ledger",
+			"File": "BackCover.pdf",
+			"Parameters": {
+				"StartOnSide": "Left",
+				"ExactLength": 1,
+				"AutoGenerate": false
+			}
+		}
+	]
+}
