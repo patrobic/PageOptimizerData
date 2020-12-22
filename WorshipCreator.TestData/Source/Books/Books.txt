@@ -1,2 +1,7 @@
-C:\Projects\PageOptimizer\Data\WorshipCreator.TestData\Source\Books\CcwsBethelCommunity\Ccws-Bethel-1e-Ledger.json
-C:\Projects\PageOptimizer\Data\WorshipCreator.TestData\Source\Books\CcwsBethelCommunity\Ccws-Bethel-1e-Letter.json
+C:\Projects\PageOptimizer\Data\WorshipCreator.TestData\Source\Books\CcwsBethelCommunity\Ccws-Bethel-1e-Lead.json
+C:\Projects\PageOptimizer\Data\WorshipCreator.TestData\Source\Books\CcwsBethelCommunity\Ccws-Bethel-1e-Chord.json
+
+C:\Projects\PageOptimizer\Data\WorshipCreator.TestData\Source\Books\ShaneAndShane\Ccws-Shane&Shane-1e-Lead.json
+C:\Projects\PageOptimizer\Data\WorshipCreator.TestData\Source\Books\ShaneAndShane\Ccws-Shane&Shane-1e-Chord.json
+
+C:\Projects\PageOptimizer\Data\WorshipCreator.TestData\Source\Books\Levites\Ccws-Levites-1e-Lead.json

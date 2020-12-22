@@ -1,0 +1,353 @@
+{
+	"BookName": "Ccws-Bethel-1e-Chord",
+	"RootPath": "Ccws-Bethel-1e-Chord",
+	"PageSize": "Letter",
+	"Landscape": true,
+	"Global": {
+		"Sections": {
+			"1": {
+				"Priority": 1,
+				"Name": "Front Cover",
+				"Type": "FrontCover"
+			},
+			"2": {
+				"Priority": 10,
+				"DependsOn": [
+					3,
+					4,
+					5,
+					6,
+					7,
+					8,
+					9
+				],
+				"Name": "Front Page",
+				"Type": "FrontPage"
+			},
+			"3": {
+				"Priority": 2,
+				"Name": "Preface",
+				"Type": "Preface"
+			},
+			"4": {
+				"Priority": 3,
+				"Name": "Chord Diagrams",
+				"Type": "Diagrams"
+			},
+			"5": {
+				"Priority": 5,
+				"DependsOn": [
+					6
+				],
+				"Name": "Sheet Music Indexes",
+				"Type": "Indexes"
+			},
+			"6": {
+				"Priority": 4,
+				"Name": "Sheet Music",
+				"Type": "SheetMusic"
+			},
+			"7": {
+				"Priority": 7,
+				"DependsOn": [
+					8
+				],
+				"Name": "Christmas Indexes",
+				"Type": "Indexes"
+			},
+			"8": {
+				"Priority": 6,
+				"Name": "Christmas Music",
+				"Type": "SheetMusic"
+			},
+			"9": {
+				"Priority": 8,
+				"Name": "Appendix",
+				"Type": "Appendix"
+			},
+			"10": {
+				"Priority": 9,
+				"Name": "Back Cover",
+				"Type": "BackCover"
+			}
+		}
+	},
+	"Import": {
+		"Sections": {
+			"1": {
+				"Path": "Content/Letter",
+				"File": "FrontCover.pdf"
+			},
+			"2": {
+				"Path": "Content/Letter",
+				"File": "FrontPage.json"
+			},
+			"3": {
+				"Path": "Content/Letter",
+				"File": "Preface.pdf"
+			},
+			"4": {
+				"Path": "Content/Letter",
+				"File": "ChordCharts.pdf"
+			},
+			"5": {
+				"Path": "Sections/Main",
+				"File": "Index.csv"
+			},
+			"6": {
+				"Path": "Sections/Main",
+				"File": "Chord.csv"
+			},
+			"7": {
+				"Path": "Sections/Christmas",
+				"File": "Index.csv"
+			},
+			"8": {
+				"Path": "Sections/Christmas",
+				"File": "Chord.csv"
+			},
+			"9": {
+				"Path": "Content/Letter",
+				"File": "Appendix.pdf"
+			},
+			"10": {
+				"Path": "Content/Letter",
+				"File": "BackCover.pdf"
+			}
+		}
+	},
+	"Publish": {
+		"Sections": {
+			"1": {
+				"StartOnSide": "Right",
+				"PageNumbering": "None",
+				"NumberingVisible": false,
+				"ExactLength": 2,
+				"AutoGenerate": false
+			},
+			"2": {
+				"StartOnSide": "Right",
+				"NumberingType": "AlphaLower",
+				"NumberingVisible": false,
+				"ExactLength": 1,
+				"AutoGenerate": true
+			},
+			"3": {
+				"StartOnSide": "Left",
+				"PageNumbering": "AlphaLower",
+				"NumberingVisible": true,
+				"ExactLength": 1,
+				"AutoGenerate": false
+			},
+			"4": {
+				"StartOnSide": "Left",
+				"PageNumbering": "AlphaLower",
+				"NumberingVisible": true,
+				"ExactLength": 2,
+				"AutoGenerate": false
+			},
+			"5": {
+				"StartOnSide": "Either",
+				"PageNumbering": "Numerical",
+				"NumberingVisible": true,
+				"ExactLength": null,
+				"AutoGenerate": true
+			},
+			"6": {
+				"StartOnSide": "Left",
+				"PageNumbering": "Numerical",
+				"NumberingVisible": true,
+				"ExactLength": null,
+				"AutoGenerate": true
+			},
+			"7": {
+				"StartOnSide": "Right",
+				"PageNumbering": "Numerical",
+				"NumberingVisible": true,
+				"ExactLength": 1,
+				"AutoGenerate": true
+			},
+			"8": {
+				"StartOnSide": "Left",
+				"PageNumbering": "Numerical",
+				"NumberingVisible": true,
+				"ExactLength": null,
+				"AutoGenerate": true
+			},
+			"9": {
+				"StartOnSide": "Either",
+				"PageNumbering": "None",
+				"NumberingVisible": false,
+				"ExactLength": null,
+				"AutoGenerate": false
+			},
+			"10": {
+				"StartOnSide": "Left",
+				"PageNumbering": "None",
+				"NumberingVisible": false,
+				"ExactLength": 1,
+				"AutoGenerate": false
+			}
+		},
+		"FrontPage": {
+			"Sections": {
+				"3": {
+					"TocEntries": [
+						{
+							"EntryId": 1,
+							"Title": "Preface",
+							"PageNumber": "b",
+							"Level": 1
+						}
+					]
+				},
+				"4": {
+					"TocEntries": [
+						{
+							"EntryId": 2,
+							"Title": "Chord Charts",
+							"PageNumber": "c",
+							"Level": 1
+						},
+						{
+							"EntryId": 3,
+							"Title": "Chords by Type (Alphabetical Order)",
+							"PageNumber": "c",
+							"Level": 2
+						},
+						{
+							"EntryId": 4,
+							"Title": "Chords by Scale (Circle of Fifths)",
+							"PageNumber": "d",
+							"Level": 2
+						}
+					]
+				},
+				"5": {
+					"TocEntries": [
+						{
+							"EntryId": 5,
+							"Title": "Song Index",
+							"PageNumber": "e",
+							"Level": 1
+						},
+						{
+							"EntryId": 6,
+							"Title": "Detailed Index",
+							"PageNumber": "f",
+							"Level": 2
+						},
+						{
+							"EntryId": 7,
+							"Title": "Index of Keys",
+							"PageNumber": "i",
+							"Level": 2
+						},
+						{
+							"EntryId": 8,
+							"Title": "Index of Authors",
+							"PageNumber": "j",
+							"Level": 2
+						},
+						{
+							"EntryId": 9,
+							"Title": "Index of Date Published",
+							"PageNumber": "k",
+							"Level": 2
+						}
+					]
+				},
+				"6": {
+					"TocEntries": [
+						{
+							"EntryId": 10,
+							"Title": "Sheet Music",
+							"PageNumber": "1",
+							"Level": 1
+						}
+					]
+				},
+				"7": {
+					"TocEntries": [
+						{
+							"EntryId": 11,
+							"Title": "Christmas Index",
+							"PageNumber": "260",
+							"Level": 1
+						}
+					]
+				},
+				"8": {
+					"TocEntries": [
+						{
+							"EntryId": 12,
+							"Title": "Christmas Music",
+							"PageNumber": "261",
+							"Level": 1
+						}
+					]
+				}
+			}
+		},
+		"IndexPages": {
+			"Sections": {
+				"5": {
+					"Indexes": [
+						{
+							"Name": "Alphabetical Index",
+							"IndexType": "Alphabetical",
+							"Columns": 3
+						},
+						{
+							"Name": "Detailed Index",
+							"IndexType": "Detailed",
+							"Columns": 1
+						},
+						{
+							"Name": "Keys Index",
+							"IndexType": "Keys",
+							"Columns": 3
+						},
+						{
+							"Name": "Authors Index",
+							"IndexType": "Authors",
+							"Columns": 3
+						},
+						{
+							"Name": "Date Published Index",
+							"IndexType": "DatePublished",
+							"Columns": 3
+						}
+					]
+				},
+				"7": {
+					"Indexes": [
+						{
+							"Name": "Alphabetical Index",
+							"IndexType": "Alphabetical"
+						}
+					]
+				}
+			}
+		},
+		"SheetMusic": {
+			"Sections": {
+				"6": {
+					"SheetType": "ChordSheet",
+					"OptimizerType": "Default",
+					"PrimaryAlphabetical": false
+				},
+				"8": {
+					"SheetType": "ChordSheet",
+					"OptimizerType": "Default",
+					"PrimaryAlphabetical": true
+				}
+			}
+		},
+		"Generic": {}
+	},
+	"Export": {
+		"Path": "C:/Books/Ccws-Bethel-1e-Chord",
+		"Sections": {}
+	}
+}

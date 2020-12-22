@@ -1,7 +1,7 @@
 {
-	"BookName": "CCWS",
-	"RootPath": "CCWS",
-	"PageSize": "Ledger",
+	"BookName": "Ccws-Shane&Shane-1e-Chord",
+	"RootPath": "Ccws-Shane&Shane-1e-Chord",
+	"PageSize": "Letter",
 	"Landscape": true,
 	"Global": {
 		"Sections": {
@@ -75,43 +75,35 @@
 	"Import": {
 		"Sections": {
 			"1": {
-				"Path": "Content/Ledger",
+				"Path": "Content/Letter",
 				"File": "FrontCover.pdf"
 			},
 			"2": {
-				"Path": "Content/Ledger",
+				"Path": "Content/Letter",
 				"File": "FrontPage.json"
 			},
 			"3": {
-				"Path": "Content/Ledger",
+				"Path": "Content/Letter",
 				"File": "Preface.pdf"
 			},
 			"4": {
-				"Path": "Content/Ledger",
+				"Path": "Content/Letter",
 				"File": "ChordCharts.pdf"
 			},
 			"5": {
-				"Path": "Sections/Main",
+				"Path": "Sections/TheWorshipInitiative",
 				"File": "Index.csv"
 			},
 			"6": {
-				"Path": "Sections/Main",
-				"File": "Lead.csv"
-			},
-			"7": {
-				"Path": "Sections/Christmas",
-				"File": "Index.csv"
-			},
-			"8": {
-				"Path": "Sections/Christmas",
-				"File": "Lead.csv"
+				"Path": "Sections/TheWorshipInitiative",
+				"File": "Chord.csv"
 			},
 			"9": {
-				"Path": "Content/Ledger",
+				"Path": "Content/Letter",
 				"File": "Appendix.pdf"
 			},
 			"10": {
-				"Path": "Content/Ledger",
+				"Path": "Content/Letter",
 				"File": "BackCover.pdf"
 			}
 		}
@@ -154,20 +146,6 @@
 				"AutoGenerate": true
 			},
 			"6": {
-				"StartOnSide": "Left",
-				"PageNumbering": "Numerical",
-				"NumberingVisible": true,
-				"ExactLength": null,
-				"AutoGenerate": true
-			},
-			"7": {
-				"StartOnSide": "Right",
-				"PageNumbering": "Numerical",
-				"NumberingVisible": true,
-				"ExactLength": 1,
-				"AutoGenerate": true
-			},
-			"8": {
 				"StartOnSide": "Left",
 				"PageNumbering": "Numerical",
 				"NumberingVisible": true,
@@ -266,26 +244,6 @@
 							"Level": 1
 						}
 					]
-				},
-				"7": {
-					"TocEntries": [
-						{
-							"EntryId": 11,
-							"Title": "Christmas Index",
-							"PageNumber": "260",
-							"Level": 1
-						}
-					]
-				},
-				"8": {
-					"TocEntries": [
-						{
-							"EntryId": 12,
-							"Title": "Christmas Music",
-							"PageNumber": "261",
-							"Level": 1
-						}
-					]
 				}
 			}
 		},
@@ -319,35 +277,22 @@
 							"Columns": 3
 						}
 					]
-				},
-				"7": {
-					"Indexes": [
-						{
-							"Name": "Alphabetical Index",
-							"IndexType": "Alphabetical"
-						}
-					]
 				}
 			}
 		},
 		"SheetMusic": {
 			"Sections": {
 				"6": {
-					"SheetType": "LeadSheet",
+					"SheetType": "ChordSheet",
 					"OptimizerType": "Default",
 					"PrimaryAlphabetical": false
-				},
-				"8": {
-					"SheetType": "LeadSheet",
-					"OptimizerType": "Default",
-					"PrimaryAlphabetical": true
 				}
 			}
 		},
 		"Generic": {}
 	},
 	"Export": {
-		"Path": "C:/Books/CCWS",
+		"Path": "C:/Books/Ccws-Shane&Shane-1e-Chord",
 		"Sections": {}
 	}
 }
