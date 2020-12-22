@@ -1,229 +1,197 @@
 {
 	"BookName": "CCWS",
 	"RootPath": "CCWS",
-	"PageSize": "Ledger",
-	"PageOrientation": "Landscape",
-	"Sections": [
-		{
-			"Id": 1,
-			"Priority": 1,
-			"Name": "Front Cover",
-			"Type": "FrontCover"
-		},
-		{
-			"Id": 2,
-			"Priority": 10,
-			"DependsOn": [
-				3,
-				4,
-				5,
-				6,
-				7,
-				8,
-				9
-			],
-			"Name": "Front Page",
-			"Type": "FrontPage"
-		},
-		{
-			"Id": 3,
-			"Priority": 2,
-			"Name": "Preface",
-			"Type": "Preface"
-		},
-		{
-			"Id": 4,
-			"Priority": 3,
-			"Name": "Chord Diagrams",
-			"Type": "Diagrams"
-		},
-		{
-			"Id": 5,
-			"Priority": 5,
-			"DependsOn": [
-				6
-			],
-			"Name": "Sheet Music Indexes",
-			"Type": "Indexes"
-		},
-		{
-			"Id": 6,
-			"Priority": 4,
-			"Name": "Sheet Music",
-			"Type": "SheetMusic"
-		},
-		{
-			"Id": 7,
-			"Priority": 7,
-			"DependsOn": [
-				8
-			],
-			"Name": "Christmas Indexes",
-			"Type": "Indexes"
-		},
-		{
-			"Id": 8,
-			"Priority": 6,
-			"Name": "Christmas Music",
-			"Type": "SheetMusic"
-		},
-		{
-			"Id": 9,
-			"Priority": 8,
-			"Name": "Appendix",
-			"Type": "Appendix"
-		},
-		{
-			"Id": 10,
-			"Priority": 9,
-			"Name": "Back Cover",
-			"Type": "BackCover"
+	"PageSize": "Letter",
+	"Landscape": true,
+	"Global": {
+		"Sections": {
+			"1": {
+				"Priority": 1,
+				"Name": "Front Cover",
+				"Type": "FrontCover"
+			},
+			"2": {
+				"Priority": 10,
+				"DependsOn": [
+					3,
+					4,
+					5,
+					6,
+					7,
+					8,
+					9
+				],
+				"Name": "Front Page",
+				"Type": "FrontPage"
+			},
+			"3": {
+				"Priority": 2,
+				"Name": "Preface",
+				"Type": "Preface"
+			},
+			"4": {
+				"Priority": 3,
+				"Name": "Chord Diagrams",
+				"Type": "Diagrams"
+			},
+			"5": {
+				"Priority": 5,
+				"DependsOn": [
+					6
+				],
+				"Name": "Sheet Music Indexes",
+				"Type": "Indexes"
+			},
+			"6": {
+				"Priority": 4,
+				"Name": "Sheet Music",
+				"Type": "SheetMusic"
+			},
+			"7": {
+				"Priority": 7,
+				"DependsOn": [
+					8
+				],
+				"Name": "Christmas Indexes",
+				"Type": "Indexes"
+			},
+			"8": {
+				"Priority": 6,
+				"Name": "Christmas Music",
+				"Type": "SheetMusic"
+			},
+			"9": {
+				"Priority": 8,
+				"Name": "Appendix",
+				"Type": "Appendix"
+			},
+			"10": {
+				"Priority": 9,
+				"Name": "Back Cover",
+				"Type": "BackCover"
+			}
 		}
-	],
+	},
 	"Import": {
-		"Parameters": {},
-		"Sections": [
-			{
-				"Id": 1,
-				"Path": "Content/Ledger",
+		"Sections": {
+			"1": {
+				"Path": "Content/Letter",
 				"File": "FrontCover.pdf"
 			},
-			{
-				"Id": 2,
-				"Path": "Content/Ledger",
+			"2": {
+				"Path": "Content/Letter",
 				"File": "FrontPage.json"
 			},
-			{
-				"Id": 3,
-				"Path": "Content/Ledger",
+			"3": {
+				"Path": "Content/Letter",
 				"File": "Preface.pdf"
 			},
-			{
-				"Id": 4,
-				"Path": "Content/Ledger",
+			"4": {
+				"Path": "Content/Letter",
 				"File": "ChordCharts.pdf"
 			},
-			{
-				"Id": 5,
+			"5": {
 				"Path": "Sections/Main",
 				"File": "Index.csv"
 			},
-			{
-				"Id": 6,
+			"6": {
 				"Path": "Sections/Main",
-				"File": "Lead.csv"
+				"File": "Chord.csv"
 			},
-			{
-				"Id": 7,
+			"7": {
 				"Path": "Sections/Christmas",
 				"File": "Index.csv"
 			},
-			{
-				"Id": 8,
+			"8": {
 				"Path": "Sections/Christmas",
-				"File": "Lead.csv"
+				"File": "Chord.csv"
 			},
-			{
-				"Id": 9,
-				"Path": "Content/Ledger",
+			"9": {
+				"Path": "Content/Letter",
 				"File": "Appendix.pdf"
 			},
-			{
-				"Id": 10,
-				"Path": "Content/Ledger",
+			"10": {
+				"Path": "Content/Letter",
 				"File": "BackCover.pdf"
 			}
-		]
+		}
 	},
 	"Publish": {
-		"Parameters": {},
-		"Sections": [
-			{
-				"Id": 1,
+		"Sections": {
+			"1": {
 				"StartOnSide": "Right",
 				"PageNumbering": "None",
 				"NumberingVisible": false,
 				"ExactLength": 2,
 				"AutoGenerate": false
 			},
-			{
-				"Id": 2,
+			"2": {
 				"StartOnSide": "Right",
 				"NumberingType": "AlphaLower",
 				"NumberingVisible": false,
 				"ExactLength": 1,
 				"AutoGenerate": true
 			},
-			{
-				"Id": 3,
+			"3": {
 				"StartOnSide": "Left",
 				"PageNumbering": "AlphaLower",
 				"NumberingVisible": true,
 				"ExactLength": 1,
 				"AutoGenerate": false
 			},
-			{
-				"Id": 4,
+			"4": {
 				"StartOnSide": "Left",
 				"PageNumbering": "AlphaLower",
 				"NumberingVisible": true,
 				"ExactLength": 2,
 				"AutoGenerate": false
 			},
-			{
-				"Id": 5,
+			"5": {
 				"StartOnSide": "Either",
 				"PageNumbering": "Numerical",
 				"NumberingVisible": true,
 				"ExactLength": null,
 				"AutoGenerate": true
 			},
-			{
-				"Id": 6,
+			"6": {
 				"StartOnSide": "Left",
 				"PageNumbering": "Numerical",
 				"NumberingVisible": true,
 				"ExactLength": null,
 				"AutoGenerate": true
 			},
-			{
-				"Id": 7,
+			"7": {
 				"StartOnSide": "Right",
 				"PageNumbering": "Numerical",
 				"NumberingVisible": true,
 				"ExactLength": 1,
 				"AutoGenerate": true
 			},
-			{
-				"Id": 8,
+			"8": {
 				"StartOnSide": "Left",
 				"PageNumbering": "Numerical",
 				"NumberingVisible": true,
 				"ExactLength": null,
 				"AutoGenerate": true
 			},
-			{
-				"Id": 9,
+			"9": {
 				"StartOnSide": "Either",
 				"PageNumbering": "None",
 				"NumberingVisible": false,
 				"ExactLength": null,
 				"AutoGenerate": false
 			},
-			{
-				"Id": 10,
+			"10": {
 				"StartOnSide": "Left",
 				"PageNumbering": "None",
 				"NumberingVisible": false,
 				"ExactLength": 1,
 				"AutoGenerate": false
 			}
-		],
+		},
 		"FrontPage": {
-			"Parameters": {},
-			"Sections": [
-				{
-					"Id": 3,
+			"Sections": {
+				"3": {
 					"TocEntries": [
 						{
 							"EntryId": 1,
@@ -233,8 +201,7 @@
 						}
 					]
 				},
-				{
-					"Id": 4,
+				"4": {
 					"TocEntries": [
 						{
 							"EntryId": 2,
@@ -256,8 +223,7 @@
 						}
 					]
 				},
-				{
-					"Id": 5,
+				"5": {
 					"TocEntries": [
 						{
 							"EntryId": 5,
@@ -291,8 +257,7 @@
 						}
 					]
 				},
-				{
-					"Id": 6,
+				"6": {
 					"TocEntries": [
 						{
 							"EntryId": 10,
@@ -302,8 +267,7 @@
 						}
 					]
 				},
-				{
-					"Id": 7,
+				"7": {
 					"TocEntries": [
 						{
 							"EntryId": 11,
@@ -313,8 +277,7 @@
 						}
 					]
 				},
-				{
-					"Id": 8,
+				"8": {
 					"TocEntries": [
 						{
 							"EntryId": 12,
@@ -324,13 +287,11 @@
 						}
 					]
 				}
-			]
+			}
 		},
 		"IndexPages": {
-			"IndexTable": {},
-			"Sections": [
-				{
-					"Id": 5,
+			"Sections": {
+				"5": {
 					"Indexes": [
 						{
 							"Name": "Alphabetical Index",
@@ -359,8 +320,7 @@
 						}
 					]
 				},
-				{
-					"Id": 7,
+				"7": {
 					"Indexes": [
 						{
 							"Name": "Alphabetical Index",
@@ -368,29 +328,26 @@
 						}
 					]
 				}
-			]
+			}
 		},
 		"SheetMusic": {
-			"Optimizing": {},
-			"Exporting": {},
-			"Sections": [
-				{
-					"Id": 6,
-					"SheetType": "LeadSheet",
-					"OptimizerType": "Exhaustive",
+			"Sections": {
+				"6": {
+					"SheetType": "ChordSheet",
+					"OptimizerType": "Default",
 					"PrimaryAlphabetical": false
 				},
-				{
-					"Id": 8,
-					"SheetType": "LeadSheet",
-					"OptimizerType": "Exhaustive",
+				"8": {
+					"SheetType": "ChordSheet",
+					"OptimizerType": "Default",
 					"PrimaryAlphabetical": true
 				}
-			]
-		}
+			}
+		},
+		"Generic": {}
 	},
 	"Export": {
-		"Parameters": {},
-		"Sections": []
+		"Path": "C:/Books/Ccws-Bethel-1e-Letter",
+		"Sections": {}
 	}
 }

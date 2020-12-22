@@ -1,0 +1,2 @@
+C:\Projects\PageOptimizer\Data\WorshipCreator.TestData\Source\Books\CcwsBethelCommunity\Ccws-Bethel-1e-Ledger.json
+C:\Projects\PageOptimizer\Data\WorshipCreator.TestData\Source\Books\CcwsBethelCommunity\Ccws-Bethel-1e-Letter.json
