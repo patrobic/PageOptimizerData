@@ -205,7 +205,7 @@
 					"TocEntries": [
 						{
 							"EntryId": 2,
-							"Title": "Chord Charts",
+							"Name": "Chord Charts",
 							"PageNumber": "c",
 							"Level": 1
 						},
@@ -292,6 +292,9 @@
 		"IndexPages": {
 			"Sections": {
 				"5": {
+					"DependentSections": [
+						6
+					],
 					"Indexes": [
 						{
 							"Name": "Alphabetical Index",
@@ -321,6 +324,9 @@
 					]
 				},
 				"7": {
+					"DependentSections": [
+						8
+					],
 					"Indexes": [
 						{
 							"Name": "Alphabetical Index",
