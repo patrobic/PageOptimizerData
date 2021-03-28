@@ -1,0 +1,46 @@
+Id,ListCode,Code,Title,Year,TrackCount,Type,Category,Include,Notes,Path
+1,ShaneAndShane,PSALMS-1,"Psalms, Vol. 1",2002,13,Studio,Psalms,FALSE,Not on TWI,"AlbumArt/600/Psalms, Vol. 1.jpg"
+2,ShaneAndShane,CARRY-AWAY,Carry Away,2003,13,Studio,Original,FALSE,,AlbumArt/600/Carry Away.jpg
+3,ShaneAndShane,CLEAN,Clean,2004,11,Studio,Original,FALSE,,AlbumArt/600/Clean.jpg
+4,ShaneAndShane,UPSTAIRS,Upstairs,2004,10,Studio,Original,FALSE,,AlbumArt/600/Upstairs.jpg
+5,ShaneAndShane,PAGES,Pages,2007,15,Studio,Original,FALSE,,AlbumArt/600/Pages.jpg
+6,ShaneAndShane,GLORY-IN-THE-HIGHEST-A-CHRISTMAS-RECORD,"Glory in the Highest, A Christmas Record",2008,10,Studio,Christmas,FALSE,Not on TWI,"AlbumArt/600/Glory in the Highest, A Christmas Record.jpg"
+7,ShaneAndShane,EVERYTHING-IS-DIFFERENT,Everything Is Different,2009,15,Studio,Original,FALSE,,AlbumArt/600/Everything Is Different.jpg
+8,ShaneAndShane,DARE-2-SHARE-UNENDING-WORSHIP,"Dare 2 Share, Unending Worship",2010,10,Studio,Original,FALSE,,"AlbumArt/600/Dare 2 Share, Unending Worship.jpg"
+9,ShaneAndShane,THE-ONE-YOU-NEED,The One You Need,2011,12,Studio,Original,FALSE,,AlbumArt/600/The One You Need.jpg
+10,ShaneAndShane,BRING-YOUR-NOTHING,Bring Your Nothing,2013,11,Studio,Original,FALSE,,AlbumArt/600/Bring Your Nothing.jpg
+11,ShaneAndShane,TWI-01,"The Worship Initiative, Vol. 01",2014,10,Studio,,TRUE,,"AlbumArt/600/The Worship Initiative, Vol. 01.jpg"
+12,ShaneAndShane,TWI-02,"The Worship Initiative, Vol. 02",2014,10,Studio,,TRUE,,"AlbumArt/600/The Worship Initiative, Vol. 02.jpg"
+13,ShaneAndShane,TWI-03,"The Worship Initiative, Vol. 03",2014,10,Studio,,TRUE,,"AlbumArt/600/The Worship Initiative, Vol. 03.jpg"
+14,ShaneAndShane,TWI-04,"The Worship Initiative, Vol. 04",2014,10,Studio,,TRUE,,"AlbumArt/600/The Worship Initiative, Vol. 04.jpg"
+15,ShaneAndShane,TWI-05,"The Worship Initiative, Vol. 05",2014,10,Studio,,TRUE,,"AlbumArt/600/The Worship Initiative, Vol. 05.jpg"
+16,ShaneAndShane,TWI-06,"The Worship Initiative, Vol. 06",2014,10,Studio,,TRUE,,"AlbumArt/600/The Worship Initiative, Vol. 06.jpg"
+17,ShaneAndShane,TWI-07,"The Worship Initiative, Vol. 07",2014,10,Studio,,TRUE,,"AlbumArt/600/The Worship Initiative, Vol. 07.jpg"
+18,ShaneAndShane,TWI-08,"The Worship Initiative, Vol. 08",2014,10,Studio,,TRUE,,"AlbumArt/600/The Worship Initiative, Vol. 08.jpg"
+19,ShaneAndShane,TWI-09,"The Worship Initiative, Vol. 09",2014,10,Studio,,TRUE,,"AlbumArt/600/The Worship Initiative, Vol. 09.jpg"
+20,ShaneAndShane,TWI-10,"The Worship Initiative, Vol. 10",2014,10,Studio,,TRUE,,"AlbumArt/600/The Worship Initiative, Vol. 10.jpg"
+21,ShaneAndShane,PSALMS-2,"Psalms, Vol. 2",2015,12,Studio,Psalms,TRUE,,"AlbumArt/600/Psalms, Vol. 2.jpg"
+22,ShaneAndShane,TWI,The Worship Initiative,2015,10,Studio,,TRUE,Kickstarter Project,AlbumArt/600/The Worship Initiative.jpg
+23,ShaneAndShane,PSALMS-LIVE,Psalms (Live),2016,13,Live,Psalms,FALSE,Not on TWI,AlbumArt/600/Psalms (Live).jpg
+24,ShaneAndShane,TWI-11,"The Worship Initiative, Vol. 11",2016,11,Studio,,TRUE,,"AlbumArt/600/The Worship Initiative, Vol. 11.jpg"
+25,ShaneAndShane,CHRISTMAS-1,"A Worship Initiative Christmas, Vol. 1",2017,10,Studio,Christmas,FALSE,,"AlbumArt/600/A Worship Initiative Christmas, Vol. 1.jpg"
+26,ShaneAndShane,CHRISTMAS-2,"A Worship Initiative Christmas, Vol. 2",2017,10,Studio,Christmas,FALSE,,"AlbumArt/600/A Worship Initiative Christmas, Vol. 2.jpg"
+27,ShaneAndShane,TWI-12,"The Worship Initiative, Vol. 12",2017,13,Studio,,TRUE,,"AlbumArt/600/The Worship Initiative, Vol. 12.jpg"
+28,ShaneAndShane,TWI-13,"The Worship Initiative, Vol. 13",2017,5,Studio,,TRUE,,"AlbumArt/600/The Worship Initiative, Vol. 13.jpg"
+29,ShaneAndShane,TWI-14,"The Worship Initiative, Vol. 14",2017,5,Studio,,TRUE,,"AlbumArt/600/The Worship Initiative, Vol. 14.jpg"
+30,ShaneAndShane,HYMNS-1,"Hymns, Vol. 1",2018,10,Studio,Hymns,TRUE,,"AlbumArt/600/Hymns, Vol. 1.jpg"
+31,ShaneAndShane,HYMNS-2,"Hymns, Vol. 2",2018,10,Studio,Hymns,TRUE,,"AlbumArt/600/Hymns, Vol. 2.jpg"
+32,ShaneAndShane,TWI-15,"The Worship Initiative, Vol. 15",2018,5,Studio,,TRUE,,"AlbumArt/600/The Worship Initiative, Vol. 15.jpg"
+33,ShaneAndShane,TWI-16,"The Worship Initiative, Vol. 16",2018,10,Studio,,TRUE,,"AlbumArt/600/The Worship Initiative, Vol. 16.jpg"
+34,ShaneAndShane,HYMNS-LIVE,Hymns (Live),2019,13,Live,Hymns,FALSE,Lots of duplicates,AlbumArt/600/Hymns (Live).jpg
+35,ShaneAndShane,CHRISTMAS-3,"A Worship Initiative Christmas, Vol. 3",2019,5,Studio,Christmas,FALSE,Mainly duplicates of Vol. 1,"AlbumArt/600/A Worship Initiative Christmas, Vol. 3.jpg"
+36,ShaneAndShane,TWI-17,"The Worship Initiative, Vol. 17",2019,12,Studio,,TRUE,,"AlbumArt/600/The Worship Initiative, Vol. 17.jpg"
+37,ShaneAndShane,TWI-18,"The Worship Initiative, Vol. 18",2020,10,Studio,,TRUE,,"AlbumArt/600/The Worship Initiative, Vol. 18.jpg"
+38,ShaneAndShane,TWI-19,"The Worship Initiative, Vol. 19",2020,10,Studio,,TRUE,,"AlbumArt/600/The Worship Initiative, Vol. 19.jpg"
+39,ShaneAndShane,TWI-20,"The Worship Initiative, Vol. 20",2020,10,Studio,,TRUE,,"AlbumArt/600/The Worship Initiative, Vol. 20.jpg"
+40,ShaneAndShane,TWI-21,"The Worship Initiative, Vol. 21",2020,10,Studio,,TRUE,,"AlbumArt/600/The Worship Initiative, Vol. 21.jpg"
+41,ShaneAndShane,TWI-22,"The Worship Initiative, Vol. 22",2020,11,Studio,,TRUE,,"AlbumArt/600/The Worship Initiative, Vol. 22.jpg"
+42,ShaneAndShane,TWI-23,"The Worship Initiative, Vol. 23",2021,10,Studio,,TRUE,,"AlbumArt/600/The Worship Initiative, Vol. 23.jpg"
+43,ShaneAndShane,TWI-24,"The Worship Initiative, Vol. 24",2021,10,Studio,,TRUE,,"AlbumArt/600/The Worship Initiative, Vol. 24.jpg"
+44,ShaneAndShane,WI-LITE,WI Lite,2100,10,Unreleased,Unreleased,FALSE,Played live but not included on any album,
+45,ShaneAndShane,WI-SINGLES,WI Singles,2100,1,Unreleased,Unreleased,FALSE,,
