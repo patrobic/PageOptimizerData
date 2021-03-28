@@ -1,2 +1,0 @@
-C:\Projects\PageOptimizer\Projects\Data\obj\Debug\Data.csprojAssemblyReference.cache
-C:\Projects\PageOptimizer\Projects\Data\obj\Debug\Data.csproj.CoreCompileInputs.cache
